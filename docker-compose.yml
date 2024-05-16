@@ -1,0 +1,14 @@
+version: "2"
+services:
+  sessionlog:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: appscrip007/sessionlog
+    restart: always
+    environment:
+      - MONGO_URL='xxxx'
+      - DATABASENAME='xxxx'
+      - GRPC_PORT=8008
+    ports:
+      - "8008:8008"

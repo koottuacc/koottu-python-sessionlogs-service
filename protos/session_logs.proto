@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+// You can ignore these for now
+//option java_multiple_files = true;
+//option java_package = "example-digestor.resource.grpc.digestor";
+//option java_outer_classname = "DigestorProto";
+//option objc_class_prefix = "DIGEST";
+
+package sessionlogs;
+
+service SessionLogs{
+ rpc GetSessionLogs(SessionLogsRequest) returns (SessionLogsResponse) {}
+}
+
+message SessionLogsRequest{
+ string body_data = 1;
+}
+
+message SessionLogsResponse{
+ string message = 1;
+ string sessionId = 2;
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff245d15-4a2c-4bdb-af02-a5392269e8fd" name="Default Changelist" comment="Fix:SessionEndiso change in mongo">
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cartabadoned" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/cronjob.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sessionlogs_server.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sessionlogs_client.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1bJ8TLvmSlefPXtcpTtq4e5wp1s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sessionData" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/protos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rpc" />
+      <recent name="$PROJECT_DIR$/protos" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff245d15-4a2c-4bdb-af02-a5392269e8fd" name="Default Changelist" comment="" />
+      <created>1574091493882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574091493882</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Feat:initial commit">
+      <created>1574091573383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574091573383</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix:dnspython">
+      <created>1574403745919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574403745919</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix:Logs">
+      <created>1574410522818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574410522818</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix:Logs">
+      <created>1574410619587</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574410619588</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix:check by session end">
+      <created>1574421748054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574421748054</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix:SessionEndiso change in mongo">
+      <created>1576131718605</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576131718605</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(cartabandoned) : add cronjob with sessionid of carts data ,send data with pushnotification if product remain for longer than 3o min">
+      <created>1588353004287</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588353004287</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(cartabandoned) : changes in cronjob ,add pm2 cron scheduler and change in push service">
+      <created>1588870316069</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588870316069</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(cartabandoned) : changes in cart_server for add session end timestamp for 15 min ,add sessionid key in proto file">
+      <created>1588952532587</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588952532587</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(session_analytics) :add session analytics data for carts and provider and bookings in session_data service.py file">
+      <created>1589359733274</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589359733274</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feat:initial commit" />
+    <MESSAGE value="Fix:dnspython" />
+    <MESSAGE value="Fix:Logs" />
+    <MESSAGE value="Fix:check by session end" />
+    <MESSAGE value="Fix:SessionEndiso change in mongo" />
+    <MESSAGE value="feat(cartabandoned) : add cronjob with sessionid of carts data ,send data with pushnotification if product remain for longer than 3o min" />
+    <MESSAGE value="feat(cartabandoned) : changes in cronjob ,add pm2 cron scheduler and change in push service" />
+    <MESSAGE value="feat(cartabandoned) : changes in cart_server for add session end timestamp for 15 min ,add sessionid key in proto file" />
+    <MESSAGE value="feat(session_analytics) :add session analytics data for carts and provider and bookings in session_data service.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(session_analytics) :add session analytics data for carts and provider and bookings in session_data service.py file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="639" y="355" width="688" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588343942318">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="639" y="355" width="688" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1588343942318" />
+    <state x="532" y="95" width="1329" height="914" key="CommitChangelistDialog2" timestamp="1589359733134">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="532" y="95" width="1329" height="914" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1589359733134" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589359743784">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1589359743783" />
+    <state x="764" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589359456811">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="764" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1589359456811" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1589370455095">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1589370455095" />
+  </component>
+</project>
